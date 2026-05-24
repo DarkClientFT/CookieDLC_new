@@ -1,0 +1,32 @@
+
+{
+  "accessWidener": "matebal.accesswidener",
+  "schemaVersion": 1,
+  "id": "cookiedlc",
+  "version": "1.2",
+  "name": "cookiedlc",
+  "description": "Minecraft Modification",
+  "authors": [
+    "Fabos",
+    "Pidor"
+  ],
+  "contact": {
+    "website": "https://t.me/dlc_cookie",
+    "repo": "none"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.cookiedlc.core.Main"
+    ]
+  },
+  "mixins": [
+    "mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.8",
+    "fabric": "*",
+    "minecraft": "~1.21.4"
+  }
+}
